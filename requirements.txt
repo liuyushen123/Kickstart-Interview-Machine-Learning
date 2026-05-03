@@ -1,0 +1,11 @@
+# --- Core Data Science Libraries ---
+numpy
+pandas
+
+# --- Data Visualization ---
+seaborn
+matplotlib
+
+# --- Interactive Environments (Recommended) ---
+notebook
+ipykernel
