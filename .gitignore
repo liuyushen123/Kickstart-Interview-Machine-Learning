@@ -37,6 +37,7 @@ sdist/
 var/
 wheels/
 *.egg-info/
+.ruff_cache
 
 # ==============================================================================
 # Project Specific (Data & Logs)
