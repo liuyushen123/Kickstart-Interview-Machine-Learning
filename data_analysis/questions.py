@@ -10,17 +10,14 @@ def most_common_embarkation(data):
         Most common embarkation port ('C','Q','S').
     """
     # write your code here
-    embark_include = ["S", "C", "Q"]
-    biggest_port = "h"
-    passenger_num = -1
 
-    for i in embark_include:
-        port_passenger = data[data["embarked"] == i]["embarked"].count()
+    most_frequent_value = titanic_data["embarked"].mode()[0]
 
-        if port_passenger > passenger_num:
-            passenger_num = port_passenger
-            biggest_port = i
-    return biggest_port
+    titanic_data["embarked"] = titanic_data["embarked"].fillna(most_frequent_value)
+
+    print(titanic_data["embarked"].isnull().sum())
+
+    return most_frequent_value
 
 
 titanic_data = sns.load_dataset("titanic")
