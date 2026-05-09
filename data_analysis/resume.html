@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Yuchen Liu</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f3f3f3;
+        margin: 0;
+        padding: 40px;
+        color: #111;
+      }
+
+      .resume {
+        max-width: 850px;
+        margin: auto;
+        background: white;
+        padding: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      .header p {
+        margin: 8px 0;
+        font-size: 16px;
+      }
+
+      .section {
+        margin-bottom: 35px;
+      }
+
+      .section h2 {
+        font-size: 22px;
+        border-bottom: 2px solid #222;
+        padding-bottom: 5px;
+        margin-bottom: 18px;
+      }
+
+      .entry {
+        margin-bottom: 28px;
+      }
+
+      .top-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .sub-line {
+        display: flex;
+        justify-content: space-between;
+        font-style: italic;
+        margin-top: 4px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        margin-top: 8px;
+        padding-left: 22px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        line-height: 1.5;
+      }
+
+      .skills {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        row-gap: 10px;
+      }
+
+      .skills strong {
+        font-weight: bold;
+      }
+
+      @media print {
+        body {
+          background: white;
+          padding: 0;
+        }
+
+        .resume {
+          box-shadow: none;
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="resume">
+      <!-- HEADER -->
+      <div class="header">
+        <h1>Yuchen Liu</h1>
+        <p>626-677-8986 | yliu145@unl.edu | https://github.com/liuyushen123</p>
+        <p>Permanent Resident, Citizenship in Progress • Lincoln, Nebraska</p>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <h2>Education</h2>
+
+        <div class="entry">
+          <div class="top-line">
+            <span>University of Nebraska–Lincoln</span>
+            <span>Expected May 2027</span>
+          </div>
+
+          <div class="sub-line">
+            <span>B.S. in Computer Science</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="section">
+        <h2>Work History</h2>
+
+        <div class="entry">
+          <div class="top-line">
+            <span>Learning Assistant</span>
+            <span>Month Year – Present</span>
+          </div>
+
+          <div class="sub-line">
+            <span>University of Nebraska–Lincoln</span>
+            <span>Lincoln, NE</span>
+          </div>
+
+          <ul>
+            <li>
+              Helped students understand programming concepts including
+              recursion, functions, and debugging techniques.
+            </li>
+
+            <li>
+              Used Python and problem-solving strategies to explain assignments
+              during office hours and lab sessions.
+            </li>
+
+            <li>
+              Improved student understanding by breaking difficult concepts into
+              smaller step-by-step examples.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="section">
+        <h2>Projects</h2>
+
+        <div class="entry">
+          <div class="top-line">
+            <span>AVL Tree Implementation</span>
+            <span>Python</span>
+          </div>
+
+          <ul>
+            <li>
+              Built a self-balancing AVL tree supporting insertion and traversal
+              operations.
+            </li>
+
+            <li>
+              Used recursion and tree rotations to maintain efficient balancing.
+            </li>
+
+            <li>
+              Debugged preorder, inorder, and postorder traversal outputs for
+              correctness.
+            </li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="top-line">
+            <span>Cipher Encoder/Decoder</span>
+            <span>Python</span>
+          </div>
+
+          <ul>
+            <li>
+              Created a text encryption tool using alphabet-shifting techniques.
+            </li>
+
+            <li>
+              Used string manipulation and modular arithmetic to encode and
+              decode messages.
+            </li>
+
+            <li>
+              Improved reliability by handling uppercase letters and edge cases
+              correctly.
+            </li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="top-line">
+            <span>Data Analysis Notebook</span>
+            <span>Python, pandas, matplotlib</span>
+          </div>
+
+          <ul>
+            <li>
+              Analyzed datasets using summary statistics and visualizations.
+            </li>
+
+            <li>
+              Used pandas and matplotlib to identify trends and outliers in
+              data.
+            </li>
+
+            <li>
+              Created charts and statistical calculations for coursework
+              projects.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
